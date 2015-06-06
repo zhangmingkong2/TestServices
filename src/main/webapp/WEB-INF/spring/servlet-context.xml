@@ -10,6 +10,7 @@
 							http://www.springframework.org/schema/beans 
 							http://www.springframework.org/schema/beans/spring-beans.xsd">
 
+		<beans:bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver" />
 	
 	<beans:import resource="controllers.xml"/>
 	
